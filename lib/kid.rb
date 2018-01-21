@@ -6,4 +6,6 @@ class Kid
   
   extend MetaDancing
   
+  attr_accessor :name 
+  
 end
