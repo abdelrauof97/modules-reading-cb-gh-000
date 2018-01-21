@@ -5,7 +5,7 @@ require_relative './fancy_dance.rb'
 class Kid 
   
   extend FancyDance ::
-  include FancyDance ::
+  include FancyDance :: InstanceMethods
   
   attr_accessor :name 
   
