@@ -4,7 +4,7 @@ require_relative './fancy_dance.rb'
 
 class Dancer
   
-  extend MetaDancing
+  extend Fanc
   
   attr_accessor :name
   
